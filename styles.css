@@ -1,0 +1,32 @@
+
+.sec-1 h1{
+    color: #273043;
+    font-size: 7.4 rem;
+    letter-spacing: -3px;
+    padding-left:1rem;
+    padding-top: .6em;
+}
+
+.sec-1 h3{
+    color: #273043;
+    font-size: 7.4 rem;
+    letter-spacing: -3px;
+    padding: .6em .2em 0 3rem;
+}
+
+header a{
+    color:white;
+}
+
+.sec-2 ul li{
+    list-style: none;
+    padding: .8rem;
+}
+
+.sec-2 ul img{
+    padding-right: 10px;
+}
+
+.card:hover{
+    box-shadow: 0 9px 5px rgba(21, 20, 20, 0.2);
+  }
