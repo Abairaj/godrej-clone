@@ -1,17 +1,39 @@
 
-.sec-1 h1{
+.sec-1 h3{
+    width: 39%;
+    max-width: 39%;
+    text-align: right;
+    font-size: 34px;
+    padding-right: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 400;
     color: #273043;
-    font-size: 7.4 rem;
-    letter-spacing: -3px;
-    padding-left:1rem;
-    padding-top: .6em;
+    
 }
 
-.sec-1 h3{
+
+.sec-1 h5{
     color: #273043;
-    font-size: 7.4 rem;
-    letter-spacing: -3px;
-    padding: .6em .2em 0 3rem;
+    width: 59%;
+    max-width: 59%;
+    line-height: 1.2;
+    font-size: 16px;
+    letter-spacing: -0.46px;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 400;
+    text-align: left;
+}
+
+.btn-c{
+    padding: 2px!important;
+    margin-right: 10rem;
+}
+
+.carousel-caption{
+    margin-bottom: 180px;
+    width: 900px;
 }
 
 header a{
@@ -29,4 +51,47 @@ header a{
 
 .card:hover{
     box-shadow: 0 9px 5px rgba(21, 20, 20, 0.2);
+  }
+
+  .sec-5 h1,
+  .sec-5 p{
+
+    padding-bottom:1em;
+
+  }
+
+  footer h1{
+    font-size: 62px;
+    color: white;
+  }
+
+  footer h5{
+    font-size: 18px;
+    color: white;
+  }
+
+
+  footer a,
+  footer p{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.305);
+    font-size: 13px;
+  }
+
+  footer a:hover,
+  footer p:hover{
+    color: white;
+  }
+
+  footer h3{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: .5px;
+  }
+
+  footer i{
+    padding: 1rem;
+    color: white;
+    font-size: 1.5rem;
   }
