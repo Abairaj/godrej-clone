@@ -31,11 +31,6 @@
     margin-right: 10rem;
 }
 
-.carousel-caption{
-    margin-bottom: 180px;
-    width: 900px;
-}
-
 header a{
     color:white;
 }
@@ -48,6 +43,17 @@ header a{
 .sec-2 ul img{
     padding-right: 10px;
 }
+
+.sec-3 a{
+  text-decoration: none;
+  color: white;
+}
+
+.sec-3 a:hover{
+color: white;
+
+}
+  
 
 .card:hover{
     box-shadow: 0 9px 5px rgba(21, 20, 20, 0.2);
@@ -95,3 +101,4 @@ header a{
     color: white;
     font-size: 1.5rem;
   }
+
