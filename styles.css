@@ -102,3 +102,21 @@ color: white;
     font-size: 1.5rem;
   }
 
+  .position-fixed.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+  }
+
+  .position-fixed.scrolled a{
+    color: black!important;
+  }
+
+  .position-fixed.scrolled img{
+    display: block !important;
+  }
+
+  @media screen and (max-width: 990px) {
+    .navbar li a{
+      color: black !important;
+    }
+  }
